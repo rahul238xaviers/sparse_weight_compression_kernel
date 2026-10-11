@@ -1,0 +1,4 @@
+build/
+*.safetensors
+*.csr
+.DS_Store
