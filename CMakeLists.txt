@@ -19,5 +19,5 @@ target_link_libraries(sparse_compress PRIVATE CUDA::cudart)
 
 set_target_properties(sparse_compress PROPERTIES
     CUDA_SEPARABLE_COMPILATION OFF
-    CUDA_ARCHITECTURES 75;80;86;89
+    CUDA_ARCHITECTURES "60;70;75;80;86;89"
 )
