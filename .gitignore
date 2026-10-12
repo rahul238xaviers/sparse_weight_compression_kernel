@@ -2,3 +2,4 @@ build/
 *.safetensors
 *.csr
 .DS_Store
+compile_flags.txt
